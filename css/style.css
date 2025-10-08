@@ -1,0 +1,6 @@
+/* тут мы подключаем все стилевые файлы -
+то есть соединяем */
+@import "reset.css";
+@import "main.css";
+@import "fonts.css";
+

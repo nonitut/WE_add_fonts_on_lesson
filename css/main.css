@@ -1,0 +1,97 @@
+/* Тут мы будем писать стилизацию
+для вашего основного кода */
+     
+h1{
+font-size: 4vw;
+color: azure;
+font-weight: 900;
+}
+
+.wow_text{
+font-size: 14vw;
+font-weight: 900;
+transition: all 1s linear;
+}
+
+.wow_text:hover{
+color: crimson;
+transition: all 1s linear;
+}
+
+.paragrath_first{
+    font-size: 20vw;
+    color: fuchsia;
+    margin-left: 10%;
+    /* margin - внешний отступ */
+    padding-left: 10% ;
+     /* padding - внутренний отступ */
+}
+
+.fist_div{
+     margin-left: 5%;
+     background: yellow;
+     padding-left: 5% ;
+     border: 1px solid blue;
+}
+
+.apart_img{
+     width: 30%;
+     margin-left: 20%;
+     margin-top: 2%;
+     border: 4px solid plum;
+}
+
+.citata{
+     font-family: "Comfortaa-Bold";
+     margin-left: 15%;
+     margin-top: 2%;
+     width: 60%;
+     background: lemonchiffon;
+     padding: 1%;
+     border-left: 2px solid palevioletred ;
+     margin-bottom: 10%;
+}
+
+.section_header{
+     width: 100%;
+     height:40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.header_img{
+     width: 20%;
+}
+
+.div_header{
+     width: 10%;
+     background: lavender;
+}
+
+/* hr{
+     margin-top: ;
+} */
+
+
+.section_new{
+     width: 80%;
+     background: lemonchiffon;
+     height: 300px;
+     display: flex;
+     color: black;
+     margin-left: 10%;
+}
+
+/* .section_new > div{
+     width: 50%;
+} */
+
+.section_new_img{
+     width: 30%;
+}
+
+.div1{
+     width: 50%;
+     background: palevioletred;
+}
