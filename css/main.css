@@ -1,6 +1,41 @@
 /* Тут мы будем писать стилизацию
 для вашего основного кода */
-     
+body{
+     width: 100%;
+     overflow-x: hidden;
+}
+
+.main_about{
+     width: 80%;
+     /* background: #d2d2d2; */
+     margin: 0% auto;
+}
+.div_for_text, .div_for_img{
+     width: 50%;
+}
+
+.img_in_div{
+     width: 160%;
+}
+.div_for_text h1, .div_for_text p {
+     text-align: left;
+     margin-left: 0%;
+     color: black;
+}
+
+.blok1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+
+
+
+
+
+
 h1{
 font-size: 4vw;
 color: azure;
@@ -65,7 +100,7 @@ transition: all 1s linear;
 }
 
 .div_header{
-     width: 10%;
+     width: 15%;
      background: lavender;
 }
 
@@ -94,4 +129,9 @@ transition: all 1s linear;
 .div1{
      width: 50%;
      background: palevioletred;
+}
+
+a{
+     font-size: 1vw;
+     text-decoration: none;
 }
